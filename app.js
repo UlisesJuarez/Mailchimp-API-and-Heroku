@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("https");
 
-const secrets = require('./module');
+const secrets = require('./log/module');
 let val = secrets.apiKey(); // val is "Hello"  
 
 
@@ -62,6 +62,6 @@ app.post("/failure", function (req, res) {
     res.redirect("/");
 });
 
-http.listen((process.env.PORT || 5000), function () {
+app.listen((process.env.PORT || 5000), function () {
     console.log('listening on *:5000');
 });
