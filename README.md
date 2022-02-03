@@ -1,6 +1,7 @@
 # Mailchimp-API-and-Heroku
 
 Creando una app para que las personas se  subscriban a un boletín de información. 
+Puedes venir a subscribirte en el siguiente enlace: https://afternoon-chamber-48853.herokuapp.com/
 
 ----
 
@@ -31,8 +32,4 @@ Sí el registro es correcto aparecerá el siguiente mensaje.
 Finalmente puedo ver las personas que se subscriben desde el panel control de mi API
 
 ![](img/img7.JPG)
-
-----
-
-Puedes venir a subscribirte en el siguiente enlace: https://afternoon-chamber-48853.herokuapp.com/
 
